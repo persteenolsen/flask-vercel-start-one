@@ -23,6 +23,7 @@ A Web Application with Python version 3.12.1 and Flask version 3.0.0
 - The folder ".vscode" include the launch file for local development / debug by VS Code  
 - To debug from outside VS Code right click at the rootfolder with the repository forked from GitHub, open Powershell and type: "flask run --debug" which use the settings in the .flaskenv file. 
 - By using "flask run --debug" you could get promted to do: "pip install python-dotenv" for make things work
+- Check that the package "python-dotenv" is installed by running "pip list" to display a package list
 - Open a Browser and type "http://127.0.0.1:5000/" to see the site
 - Make a change in a file and type f5 or refresh the Browser to see the change
 
@@ -34,6 +35,17 @@ A Web Application with Python version 3.12.1 and Flask version 3.0.0
 - The vercel.json file will be used at Vercel Serverless Functions
 - Commit and sync your changes to GitHub which will create an automated Deployment to Vercel
 - Check that your site is online at Vercel "your-repository-name.vercel.app"
+
+# Helpfull commands by Powershell or command promt:
+
+- "python --version" => Display the installed Python version
+- "flask --version" => Display the version of installed Python, Flask and Werkzeug
+- "flask run" => Run the Flask Web App
+- "flask --app api/index run" => Run the Flask Web App which point directly at the Flask entry file 
+- "flask run --debug" => Run the Flask Web App in Debug mode - Show the file cnage by hitting f5
+- "pip install package name" => "pip install python-dotenv" => Installing a package
+- "pip uninstall package name" => "pip uninstall python-dotenv" => Removing a package
+- "pip list" => Display a list of the installed packages
 
 # Features / Usefull links
 
