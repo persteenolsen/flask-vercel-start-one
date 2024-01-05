@@ -46,6 +46,7 @@ A Web Application with Python version 3.12.1 and Flask version 3.0.0
 - "pip install package name" => "pip install python-dotenv" => Installing a package
 - "pip uninstall package name" => "pip uninstall python-dotenv" => Removing a package
 - "pip list" => Display a list of the installed packages
+- "pip freeze requirements.txt" => Create a requirements.txt file with the installed packages
 
 # Features / Usefull links
 
