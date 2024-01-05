@@ -6,6 +6,7 @@ A Web Application with Python version 3.12 and Flask version 3.0.0
 
 - Download Python from the official website [Python](https://python.org/)
 - Download the the Python extension for Visual Studio Code which automatically include the Pylance extionsion
+- Make sure that you have installed Python and Flask by the commands in Powershell: "python --version" or "flask --version"
 - Download / fork this Flask Starter Web App from my GitHub
 - Create the virtual envirement ".venv" for the Flask Web App by Powershell or by VS Code
 - Virtual Enviroment by VS Code: "View - Command Palette - Python Create Enviroment"
@@ -19,7 +20,6 @@ A Web Application with Python version 3.12 and Flask version 3.0.0
  
 # Local development / debug / hot reload / refresh:
 
-- Make sure that you have installed Python and Flask by the commands in Powershell: "python --version" or "flask --version"
 - The folder ".vscode" include the launch file for local development / debug by VS Code  
 - To debug from outside VS Code right click at the rootfolder with the repository forked from GitHub, open Powershell and type: "flask run --debug" which use the settings in the .flaskenv file. 
 - By using "flask run --debug" you could get promted to do: "pip install python-dotenv" for make things work
