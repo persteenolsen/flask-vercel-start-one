@@ -1,12 +1,12 @@
 # Python and Flask Tutorial
 
-A Web Application with Python version 3.12 and Flask version 3.0.0 
+A Web Application with Python version 3.12.1 and Flask version 3.0.0 
 
 # Installing
 
 - Download Python from the official website [Python](https://python.org/)
-- Download the the Python extension for Visual Studio Code which automatically include the Pylance extionsion
 - Make sure that you have installed Python and Flask by the commands in Powershell: "python --version" or "flask --version"
+- Download the the Python extension for Visual Studio Code which automatically include the Pylance extionsion
 - Download / fork this Flask Starter Web App from my GitHub
 - Create the virtual envirement ".venv" for the Flask Web App by Powershell or by VS Code
 - Virtual Enviroment by VS Code: "View - Command Palette - Python Create Enviroment"
