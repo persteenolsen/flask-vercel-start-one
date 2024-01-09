@@ -11,19 +11,25 @@ A Web Application with Python version 3.12.1 and Flask version 3.0.0
 - Create the virtual envirement ".venv" for the Flask Web App by Powershell or by VS Code
 - Virtual Enviroment by VS Code: "View - Command Palette - Python Create Enviroment"
 
-# Run the Flask Web App without Debug
+# Run the Flask Web App without Debug from terminal
 
 - Right click the local folder with the Flask Web App and open Powershell
 - Run "flask run" and type "http://127.0.0.1:5000/" in your Browser and check the site is loaded
 - If ".flaskenv" is not found run "pip install python-dotenv" and run "flask run" again
 - You can also run the Flask Web App by run "flask --app api/index run" which point directly at the Flask entry file 
  
-# Local development / debug / hot reload / refresh:
+# Local development / debug / hot reload / refresh from VS Code:
 
-- The folder ".vscode" include the launch file for local development / debug by VS Code  
-- To debug from outside VS Code right click at the rootfolder with the repository forked from GitHub, open Powershell and type: "flask run --debug" which use the settings in the .flaskenv file. 
+- The folder ".vscode" includes the launch file for local development / debug by VS Code. Note: For some reason debug throw an exeption, but without chrashing and you can see the changes by f5. However, just "run without debug" and you will notise that the debug is still on and hit f5 for see the changes. This way you will avoid the exception
+- Open a Browser and type "http://127.0.0.1:5000/" to see the site
+- Make a change in a file and type f5 or refresh the Browser to see the change
+
+# Local development / debug / hot reload / refresh outside VS Code:
+ 
+- To debug from outside VS Code right click at the rootfolder with the repository forked from GitHub, open Powershell and type: "flask run --debug" which should use the settings in the .flaskenv file. 
 - By using "flask run --debug" you could get promted to do: "pip install python-dotenv" for make things work
 - Check that the package "python-dotenv" is installed by running "pip list" to display a package list
+- Now you should be able to start in debug mode just by typing "flask run"
 - Open a Browser and type "http://127.0.0.1:5000/" to see the site
 - Make a change in a file and type f5 or refresh the Browser to see the change
 
