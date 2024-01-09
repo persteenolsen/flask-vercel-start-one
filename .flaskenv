@@ -1,1 +1,2 @@
 FLASK_APP=api/index.py
+FLASK_DEBUG=1
