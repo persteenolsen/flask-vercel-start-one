@@ -10,10 +10,10 @@ def home():
 def about():
     return render_template("about.html")
 
-@app.route("/aboutme/")
-def aboutme():
-    return render_template("aboutme.html")
-
+# Note: The function name "about_me" must match the argument in "url_for" in layout.html and NOT the route "/about-me/"
+@app.route("/about-me/")
+def about_me():
+    return render_template("about_me.html")
 
 @app.route("/contact/")
 def contact():
