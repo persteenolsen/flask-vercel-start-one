@@ -2,6 +2,10 @@
 
 A Web Application with Python version 3.12.1 and Flask version 3.0.0 
 
+# Last updated
+
+- 17-08-2024
+
 # Installing
 
 - Download Python from the official website [Python](https://python.org/)
