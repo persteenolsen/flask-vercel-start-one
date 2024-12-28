@@ -4,7 +4,7 @@ A Web Application with Python version 3.12.1 and Flask version 3.0.0
 
 # Last updated
 
-- 30-11-2024
+- 27-12-2024
 
 # Node Version at Vercel Cloud
 
