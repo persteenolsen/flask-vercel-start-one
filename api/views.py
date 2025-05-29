@@ -15,10 +15,6 @@ def about():
 def about_me():
     return render_template("about_me.html")
 
-@app.route("/contact/")
-def contact():
-    return render_template("contact.html")
-
 @app.route("/hello/")
 @app.route("/hello/<name>")
 def hello_there(name = None):
@@ -31,3 +27,8 @@ def hello_there(name = None):
 @app.route("/api/data")
 def get_data():
     return app.send_static_file("data.json")
+
+@app.errorhandler(404)
+def page_not_found(e):
+    # note that we set the 404 status explicitly
+    return render_template('404.html'), 404

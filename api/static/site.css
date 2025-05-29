@@ -1,13 +1,18 @@
+.test {
+    
+    color: green;
+}
+
 .message {
     font-weight: 600;
     color: blue;
 }
 
 .navbar {
-    background-color: lightslategray;
+    background-color: whitesmoke;
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+   color:blue;
     padding: 8px 5px 8px 5px;
 }
 

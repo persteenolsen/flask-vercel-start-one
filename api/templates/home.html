@@ -3,5 +3,20 @@
 Home
 {% endblock %}
 {% block content %}
-<p>Home Page for the Python + Flask Web App</p>
+
+<br />
+<h2>Hello, World!</h2>
+
+<p>
+<div class="test">And this is <b>only</b> the beginning ...</div>
+</p>
+                
+<b>Welcome :-)</b>
+
+<br /><br />
+
+<img src="{{ url_for('static', filename='python-logo.jpg') }}"> + 
+
+<img src="{{ url_for('static', filename='flask-logo.jpg') }}">
+
 {% endblock %}
