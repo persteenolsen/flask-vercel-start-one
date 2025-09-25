@@ -4,7 +4,7 @@ A Website by Python version 3.12.1 and Flask version 3.0.0
 
 # Last updated
 
-- 12-09-2025
+- 25-09-2025
 
 # Node Version at Vercel Cloud
 
